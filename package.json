@@ -8,7 +8,7 @@
     "dev:js": "nodemon dist/server.js",
     "dev": "concurrently \"npm run dev:ts\" \"npm run dev:js\"",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "npm run build && node dist/server.js"
   },
   "keywords": [],
   "author": "",
