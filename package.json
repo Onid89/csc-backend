@@ -23,7 +23,6 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.5",
-    "moongose": "^1.0.0",
     "socket.io": "^4.8.1",
     "ws": "^8.18.0"
   },
@@ -39,5 +38,9 @@
     "concurrently": "^9.1.2",
     "nodemon": "^3.1.9",
     "typescript": "^5.7.3"
-  }
+  },
+  "overrides": {
+  "tar": "^7.5.4"
+}
+
 }
